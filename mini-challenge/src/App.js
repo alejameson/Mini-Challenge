@@ -7,13 +7,13 @@ import "./App.css";
 
 function App() {
   return (
-    <React.Fragment>
+    <div className="App">
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/table" element={<Table />} />
         <Route path="/form" element={<Form />} />
       </Routes>
-    </React.Fragment>
+    </div>
   );
 }
 
