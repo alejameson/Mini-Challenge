@@ -2,7 +2,7 @@ import React from "react";
 import { Home } from "./components/Home/home";
 import { Table } from "./components/Table/table";
 import { Form } from "./components/Form/form";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
