@@ -40,8 +40,8 @@ export function Table() {
         </tr>
       </thead>
       <tbody>
-        {users.map((user) => (
-          <tr>
+        {users.map((user, i) => (
+          <tr key={i}>
             <td>{user.nombre}</td>
             <td>{user.edad}</td>
             <td>{user.carrera}</td>
